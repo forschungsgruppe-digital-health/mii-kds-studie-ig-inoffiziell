@@ -1,0 +1,68 @@
+id	layer	check	verdict	subject	evidence	autofix	action
+C1-f616ad	conservation	C1	IDENTISCH	59 source artefacts	all present in fsh-generated, matched by id or canonical url (source: fsh-generated/resources)	-	-
+C2-5b46a1	conservation	C2	IDENTISCH	/private/tmp/claude-503/-Users-marcel-Development-cross-hub-patientportal/e2e22580-543a-4bf5-88cc-83677866f38a/scratchpad/studie-rendered/branches/migration/2026.0.1-template-v0.11.0/de (59 artefacts)	every generated resource is rendered and listed in artifacts.html	-	-
+C2-140bcb	conservation	C2	IDENTISCH	/private/tmp/claude-503/-Users-marcel-Development-cross-hub-patientportal/e2e22580-543a-4bf5-88cc-83677866f38a/scratchpad/studie-rendered/branches/migration/2026.0.1-template-v0.11.0/en (59 artefacts)	every generated resource is rendered and listed in artifacts.html	-	-
+C3-c33506	conservation	C3	NICHT PRUEFBAR	source guide pages	no harvest manifest and no source pagecontent to enumerate	-	supply --harvest-tsv or --source; a migration whose source page set is unknown cannot claim conservation
+C4-fee309	conservation	C4	NICHT PRUEFBAR	narrative text runs	no harvested source narrative (./migration-log/guide-harvest/pagecontent) and no source pagecontent	-	supply --harvest-dir or --source; without a source text there is nothing to conserve against
+C5-f09e26	conservation	C5	IDENTISCH	input/includes/menu.xml	all 26 menu entries resolve to a real page	-	-
+C5-d64c1f	conservation	C5	IDENTISCH	input/translations/de/includes/menu.xml	all 26 menu entries resolve to a real page	-	-
+C5-e8746e	conservation	C5	DIVERGIERT	input/pagecontent/ImplementationGuide-mii-ig-studie.md	narrative page in NO menu entry -- rendered, but reachable only by typing its URL	-	add it to input/includes/menu.xml (and the per-language copies), or retire the page
+C5-c55eba	conservation	C5	DIVERGIERT	input/pagecontent/ImplementationGuide-mii-ig-studie.md	target page is neither a template page nor the target of any page-map row -- it appeared during migration	-	name its provenance in the page map, or remove it; a page nobody can trace to a source is content a reviewer cannot check
+C6-cc9590	conservation	C6	NICHT PRUEFBAR	content placement	no harvested source narrative to place	-	supply --harvest-dir or --source
+F1-093008	fidelity	F1	IDENTISCH	id	mii-ig-studie (identical to the source)	-	-
+F1-bacf3c	fidelity	F1	IDENTISCH	packageId	de.medizininformatikinitiative.kerndatensatz.studie (identical to the source)	-	-
+F1-489e82	fidelity	F1	IDENTISCH	canonical	https://www.medizininformatik-initiative.de/fhir/modul-studi… (identical to the source)	-	-
+F1-6cbfea	fidelity	F1	IDENTISCH	version	2026.0.1 (identical to the source)	-	-
+F1-8a3995	fidelity	F1	IDENTISCH	status	active (identical to the source)	-	-
+F1-b5b102	fidelity	F1	DIVERGIERT	title	target MII Implementation Guide Medizinisches Forschungsvorhaben  vs  source Medizininformatik Initiative - Modul Medizinisches Forschung…	-	the SOURCE wins (spec 2.2); restore it or record the divergence as a Gate-A decision -- never normalise silently
+F1-7bae24	fidelity	F1	NICHT PRUEFBAR	license	no source value (neither the source tree nor the claims ledger yields one)	-	supply it at Gate A -- an identity field nobody can compare is not a field that matches
+F1-5451f2	fidelity	F1	IDENTISCH	publisher	target NUM-DIZ (template >= v1.1 publisher chrome, spec 2.2); source declared Medizininformatik Initiative -- deliberately not carried	-	-
+F1-f60f40	fidelity	F1	IDENTISCH	fhirVersion	4.0.1 (identical to the source)	-	-
+F2-ce5cda	fidelity	F2	IDENTISCH	de.medizininformatikinitiative.kerndatensatz.meta	pinned 2026.0.0, identical to the source pin (the source tree (--source))	-	-
+F2-a51d44	fidelity	F2	IDENTISCH	hl7.fhir.extensions.r5	pinned 4.0.1, identical to the source pin (the source tree (--source))	-	-
+F2-fd0e73	fidelity	F2	NICHT PRUEFBAR	hl7.fhir.uv.crmi	target-only dependency 2.0.0 (not in the source)	-	confirm at Gate A that this is template machinery (hl7.fhir.uv.crmi is) and not an accidental addition
+F2-047205	fidelity	F2	NICHT PRUEFBAR	hl7.fhir.uv.extensions.r4	target-only dependency 5.3.0 (not in the source)	-	confirm at Gate A that this is template machinery (hl7.fhir.uv.crmi is) and not an accidental addition
+F2-8f9355	fidelity	F2	NICHT PRUEFBAR	hl7.terminology.r4	target-only dependency 7.3.0 (not in the source)	-	confirm at Gate A that this is template machinery (hl7.fhir.uv.crmi is) and not an accidental addition
+F3-1a29c4	fidelity	F3	NICHT PRUEFBAR	license	target declares CC-BY-4.0 with NO tier evidence behind it (no claim in identity-claims.tsv)	-	read the source's LICENSE (repo-identity.sh) and claim it, or confirm the value at Gate A. The template's literal CC-BY-4.0 reaches here unflagged otherwise
+F4-c4767f	fidelity	F4	IDENTISCH	17 FSH files	no fhir_comments rules, no whitespace-bearing code references	-	-
+P1-fded0e	provenance	P1	IDENTISCH	template	rendered de.medizininformatikinitiative.template#1.3.1 == vendored de.medizininformatikinitiative.template#1.3.1	-	-
+P2-264584	provenance	P2	IDENTISCH	vendored template ref	v0.11.0 == latest release v0.11.0	-	-
+P3-a28a47	provenance	P3	IDENTISCH	IG Publisher version	2.3.2 == the workflow pin	-	-
+P4-379bde	provenance	P4	DIVERGIERT	source guide version	the recorded guide URL carries ?version=current (run.log, action package-identity) -- the live, editable project, not a published version	-	re-harvest from a PUBLISHED version; `current` is not reproducible. Where the guide has no published version at all, that is the finding -- record it as such rather than leaving the pin unstated
+R1-5e77c9	rendering	R1	IDENTISCH	/private/tmp/claude-503/-Users-marcel-Development-cross-hub-patientportal/e2e22580-543a-4bf5-88cc-83677866f38a/scratchpad/studie-rendered/branches/migration/2026.0.1-template-v0.11.0/de	tables, tabs and images all non-empty and resolvable	-	-
+R2-4c016c	rendering	R2	DIVERGIERT	/private/tmp/claude-503/-Users-marcel-Development-cross-hub-patientportal/e2e22580-543a-4bf5-88cc-83677866f38a/scratchpad/studie-rendered/branches/migration/2026.0.1-template-v0.11.0/de id="publish-box" [{{]	on 6 page(s), e.g. StructureDefinition-mii-pr-studie-ein-auschluss-kriterium-definitions.html: e applications should not use a retired {{title}} without due consideration Primitive Valu…	-	rendered header/footer metadata defect -- qa.txt does not report it. Fix the metadata it renders (a jurisdiction code the template cannot resolve is the measured case)
+R2-b75b07	rendering	R2	DIVERGIERT	/private/tmp/claude-503/-Users-marcel-Development-cross-hub-patientportal/e2e22580-543a-4bf5-88cc-83677866f38a/scratchpad/studie-rendered/branches/migration/2026.0.1-template-v0.11.0/de id="ig-status" [{{]	on 1 page(s), e.g. searchform.html: Search {{title}} (Current Build)	-	rendered header/footer metadata defect -- qa.txt does not report it. Fix the metadata it renders (a jurisdiction code the template cannot resolve is the measured case)
+R1-86f743	rendering	R1	IDENTISCH	/private/tmp/claude-503/-Users-marcel-Development-cross-hub-patientportal/e2e22580-543a-4bf5-88cc-83677866f38a/scratchpad/studie-rendered/branches/migration/2026.0.1-template-v0.11.0/en	tables, tabs and images all non-empty and resolvable	-	-
+R2-ea1019	rendering	R2	DIVERGIERT	/private/tmp/claude-503/-Users-marcel-Development-cross-hub-patientportal/e2e22580-543a-4bf5-88cc-83677866f38a/scratchpad/studie-rendered/branches/migration/2026.0.1-template-v0.11.0/en id="publish-box" [{{]	on 6 page(s), e.g. StructureDefinition-mii-pr-studie-ein-auschluss-kriterium-definitions.html: e applications should not use a retired {{title}} without due consideration Primitive Valu…	-	rendered header/footer metadata defect -- qa.txt does not report it. Fix the metadata it renders (a jurisdiction code the template cannot resolve is the measured case)
+R2-bcaede	rendering	R2	DIVERGIERT	/private/tmp/claude-503/-Users-marcel-Development-cross-hub-patientportal/e2e22580-543a-4bf5-88cc-83677866f38a/scratchpad/studie-rendered/branches/migration/2026.0.1-template-v0.11.0/en id="ig-status" [{{]	on 1 page(s), e.g. searchform.html: Search {{title}} (Current Build)	-	rendered header/footer metadata defect -- qa.txt does not report it. Fix the metadata it renders (a jurisdiction code the template cannot resolve is the measured case)
+R1-76f413	rendering	R1	NICHT PRUEFBAR	source-versus-target rendering	no harvested source HTML (./migration-log/guide-harvest/html) and/or no page map	-	harvest with --keep-html and write the page map; without a source rendering, 'non-empty where non-empty in the source' has no reference
+R3-7aa400	rendering	R3	IDENTISCH	/private/tmp/claude-503/-Users-marcel-Development-cross-hub-patientportal/e2e22580-543a-4bf5-88cc-83677866f38a/scratchpad/studie-rendered/branches/migration/2026.0.1-template-v0.11.0/de	all 18 narrative pages differ from the default language	-	-
+R4-84ad62	rendering	R4	IDENTISCH	template example links	none, over 1 token(s) from template-artifacts.tsv (verified against template package 1.2.1)	-	-
+R5-3b18d7	rendering	R5	IDENTISCH	input/translations/de/ImplementationGuide-mii-ig-studie.po	a translated unit for every one of the 19 page titles	-	-
+L0-28d3e4	log	L0	IDENTISCH	./migration-log/run.log	122 parsed lines, 1 runs	-	-
+L1-72b929	log	L1	IDENTISCH	silent-partial-success WARNs	the log carries none across 122 lines	-	-
+L2-5e1c48	log	L2	IDENTISCH	pre.2 classify-source-shape	present in the log	-	-
+L2-4fd559	log	L2	IDENTISCH	pre.5 toolchain	present in the log	-	-
+L2-541189	log	L2	IDENTISCH	5.1 source-inventory	present in the log	-	-
+L2-9a6da6	log	L2	IDENTISCH	2.1 read-identity	present in the log	-	-
+L2-23b069	log	L2	IDENTISCH	2.1 package-identity	present in the log	-	-
+L2-7163a2	log	L2	IDENTISCH	2.1 repo-identity	present in the log	-	-
+L2-07bdbb	log	L2	NICHT PRUEFBAR	5.1c simplifier-discover	no line in the log; the step is conditional (no rendered-IG URL was supplied)	-	confirm the condition did not hold -- Without the discovery chain the guide is not found, and a migration then ships the template's starter pages.
+L2-930ba2	log	L2	NICHT PRUEFBAR	5.1d guide-harvest	no line in the log; the step is conditional (the narrative is not in the repository)	-	confirm the condition did not hold -- This is the step whose absence shipped the template's starter pages under a module's name.
+L2-666ef6	log	L2	IDENTISCH	5.2 skeleton-vendored	present in the log	-	-
+L2-200a9d	log	L2	IDENTISCH	5.2 sushi-skeleton	present in the log	-	-
+L2-9a700e	log	L2	IDENTISCH	5.3 transfer-artefacts	present in the log	-	-
+L2-8fadca	log	L2	IDENTISCH	5.4 fql-scan	present in the log	-	-
+L2-ec69ec	log	L2	IDENTISCH	5.4a optional-page-decisions	present in the log	-	-
+L2-b6ec8c	log	L2	IDENTISCH	5.4b security-privacy-decision	present in the log	-	-
+L2-a85d96	log	L2	NICHT PRUEFBAR	5.5 gen-page-title-po	no line in the log; the step is conditional (bilingual target)	-	confirm the condition did not hold -- Page titles fall back to the default language with no error anywhere.
+L2-619c38	log	L2	IDENTISCH	5.6 sushi-build	present in the log	-	-
+L2-a60619	log	L2	IDENTISCH	5.6 ig-publisher	present in the log	-	-
+L2-d8144d	log	L2	IDENTISCH	5.6a sibling-skill-check	present in the log	-	-
+L2-3b5912	log	L2	IDENTISCH	11 verify-migration	present in the log	-	-
+L3-8d972c	log	L3	IDENTISCH	identity field ?	1 contradicting readings, decided in the log	-	-
+L3-4436a8	log	L3	IDENTISCH	identity field description	1 contradicting readings, decided in the log	-	-
+L3-8766f8	log	L3	IDENTISCH	identity ledger	migration-log/identity-claims.tsv present, 9 claim(s)	-	-
+L4-106e61	log	L4	NICHT PRUEFBAR	conversion count	no `gofsh-convert … actual=` line in the log	-	shape B only; for shape A there is nothing to convert
+L4-f17740	log	L4	NICHT PRUEFBAR	page count	no harvested count in the log and/or no harvest manifest	-	harvest the guide (step 2c) where the narrative is not in the repo
+L4-40cf60	log	L4	IDENTISCH	artifact count	artifacts.html lists 59 for 59 generated resources	-	-

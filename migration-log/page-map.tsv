@@ -28,3 +28,4 @@ TechnischeImplementierung/CapabilityStatement.page.md	capability-statements.md
 TechnischeImplementierung/FHIR-Profile/Index.page.md	profiles.md	
 TechnischeImplementierung/FHIR-Profile/FHIR-Profile.page.md	RETIRED	near-duplicate of FHIR-Profile/Index.page.md (same text, older warning table)
 TechnischeImplementierung/FHIR-Profile/Organization.page.md	implementer-guidance.md	reused STRUKTURDATEN profile; mapping tables summarized, full tables remain source-only (TODO:REVIEW)
+ImplementationGuide-mii-ig-studie.md	TEMPLATE:v0.11.0	template-shipped IG-resource intro page (module-template v0.11.0; menu-less BY DESIGN — linked from Home Contents + ToC; verifier template-pages list is at v0.10.3)
