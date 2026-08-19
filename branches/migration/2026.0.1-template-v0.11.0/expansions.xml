@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <Bundle xmlns="http://hl7.org/fhir">
-  <id value="fd69deb7-7109-4394-8899-31157891bd88"/>
+  <id value="b03441f5-9857-4988-866a-765d1bf83389"/>
   <meta>
-    <lastUpdated value="2026-08-19T21:13:29.683+00:00"/>
+    <lastUpdated value="2026-08-19T21:26:17.033+00:00"/>
   </meta>
   <type value="collection"/>
   <entry>
@@ -198,7 +198,7 @@
         <title value="Associated Party Role"/>
         <status value="active"/>
         <experimental value="false"/>
-        <date value="2026-08-19T21:13:29+00:00"/>
+        <date value="2026-08-19T21:26:17+00:00"/>
         <jurisdiction>
           <coding>
             <system value="urn:iso:std:iso:3166"/>
@@ -207,8 +207,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:da4cfeaa-0b84-420b-ada8-919db2e9f9ea"/>
-          <timestamp value="2026-08-19T21:16:53+00:00"/>
+          <identifier value="urn:uuid:7d89a341-fe56-46d7-8ad2-e4117c6b6e00"/>
+          <timestamp value="2026-08-19T21:27:53+00:00"/>
           <total value="7"/>
           <offset value="0"/>
           <parameter>
@@ -466,7 +466,7 @@
         <title value="Associated Party Role"/>
         <status value="active"/>
         <experimental value="false"/>
-        <date value="2026-08-19T21:13:29+00:00"/>
+        <date value="2026-08-19T21:26:17+00:00"/>
         <jurisdiction>
           <coding>
             <system value="urn:iso:std:iso:3166"/>
@@ -475,8 +475,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:da4cfeaa-0b84-420b-ada8-919db2e9f9ea"/>
-          <timestamp value="2026-08-19T21:16:53+00:00"/>
+          <identifier value="urn:uuid:7d89a341-fe56-46d7-8ad2-e4117c6b6e00"/>
+          <timestamp value="2026-08-19T21:27:53+00:00"/>
           <total value="7"/>
           <offset value="0"/>
           <parameter>
@@ -734,7 +734,7 @@
         <title value="Associated Party Role"/>
         <status value="active"/>
         <experimental value="false"/>
-        <date value="2026-08-19T21:13:29+00:00"/>
+        <date value="2026-08-19T21:26:17+00:00"/>
         <jurisdiction>
           <coding>
             <system value="urn:iso:std:iso:3166"/>
@@ -743,8 +743,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:d3b00cc9-0ee7-4d2a-9929-ae80c0a8f220"/>
-          <timestamp value="2026-08-19T21:16:53+00:00"/>
+          <identifier value="urn:uuid:453f8287-7825-473e-963f-5f81654707ba"/>
+          <timestamp value="2026-08-19T21:27:53+00:00"/>
           <total value="7"/>
           <offset value="0"/>
           <parameter>
@@ -932,7 +932,7 @@
         <title value="Research Study Category"/>
         <status value="active"/>
         <experimental value="false"/>
-        <date value="2026-08-19T21:13:29+00:00"/>
+        <date value="2026-08-19T21:26:17+00:00"/>
         <jurisdiction>
           <coding>
             <system value="urn:iso:std:iso:3166"/>
@@ -941,8 +941,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:424fa6ae-1b7b-4e04-9380-fceb042acd5e"/>
-          <timestamp value="2026-08-19T21:16:53+00:00"/>
+          <identifier value="urn:uuid:1eeb432b-8510-4b2f-8a9b-1ec2a2c09fa9"/>
+          <timestamp value="2026-08-19T21:27:53+00:00"/>
           <total value="4"/>
           <offset value="0"/>
           <parameter>
@@ -1122,7 +1122,7 @@
         <title value="Research Study Category"/>
         <status value="active"/>
         <experimental value="false"/>
-        <date value="2026-08-19T21:13:29+00:00"/>
+        <date value="2026-08-19T21:26:17+00:00"/>
         <jurisdiction>
           <coding>
             <system value="urn:iso:std:iso:3166"/>
@@ -1131,8 +1131,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:424fa6ae-1b7b-4e04-9380-fceb042acd5e"/>
-          <timestamp value="2026-08-19T21:16:53+00:00"/>
+          <identifier value="urn:uuid:1eeb432b-8510-4b2f-8a9b-1ec2a2c09fa9"/>
+          <timestamp value="2026-08-19T21:27:53+00:00"/>
           <total value="4"/>
           <offset value="0"/>
           <parameter>
@@ -1312,7 +1312,7 @@
         <title value="Research Study Category"/>
         <status value="active"/>
         <experimental value="false"/>
-        <date value="2026-08-19T21:13:29+00:00"/>
+        <date value="2026-08-19T21:26:17+00:00"/>
         <jurisdiction>
           <coding>
             <system value="urn:iso:std:iso:3166"/>
@@ -1321,8 +1321,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:8255bd8d-5ff0-43a2-9f9c-0b2857711489"/>
-          <timestamp value="2026-08-19T21:16:54+00:00"/>
+          <identifier value="urn:uuid:cd64eca6-d011-4674-993f-d5130c282e83"/>
+          <timestamp value="2026-08-19T21:27:53+00:00"/>
           <total value="4"/>
           <offset value="0"/>
           <parameter>

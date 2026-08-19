@@ -27,7 +27,7 @@ Suchparameter für DocumentReference.content.attachment.title
   "name" : "SP_MII_Studie_Title",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-08-19T21:13:29+00:00",
+  "date" : "2026-08-19T21:26:17+00:00",
   "publisher" : "NUM-DIZ",
   "_publisher" : {
     "extension" : [{
