@@ -1,32 +1,26 @@
 <!-- markdownlint-disable MD041 -->
-<!-- Übersichtsseite "Anleitung". Ersetzen Sie die [TODO]-Hinweise; die
-     Unterseiten-Struktur folgt kerndatensatz-basis. -->
+<!-- Quelle: MIIIGModulStudie @1394b43 (kerndatensatzmodul-studie v2026.0.1) -->
+### Beschreibung Modul Medizinisches Forschungsvorhaben
 
-Dieser Abschnitt bündelt die fachlichen Hinweise zur Umsetzung und Nutzung des
-Moduls **{{MODULE_TITLE}}**.
+Das MII KDS Modul Medizinisches Forschungsvorhaben ist als Modul des [Kerndatensatzes (KDS) der Medizininformatik-Initiative (MII)](https://www.medizininformatik-initiative.de/de/der-kerndatensatz-der-medizininformatik-initiative) entstanden. 
 
-### Allgemeine Umsetzungshinweise
+Medizinisches Forschungsvorhaben im Rahmen der Medizininformatik sind geplante experimentelle klinische und epidemiologische Untersuchungen, die sich auf strukturierte Datenerfassungen meist menschlicher Probanden stützen. Sie umfassen eine breite Palette verschiedener Typen mit einem unterschiedlichen Grad an regulativen Vorgaben. Ausdrücklich eingeschlossen in diesem Modul sind:
 
-* **[Datensätze und Beschreibungen](logical-models.html)** — die Datenelemente
-  des Moduls, beschrieben als logische Modelle. (Dieser Eintrag teilt sein Ziel
-  mit *Artefakte → Logische Modelle*; keiner der Anker der Artefakt-Übersicht
-  ist als Linkziel nutzbar — siehe
-  [`docs/page-structure.md`](https://github.com/{{GITHUB_ORG}}/{{REPO_NAME}}/blob/main/docs/page-structure.md) in diesem Repository.)
-* **[UML-Diagramme](uml-diagrams.html)** — visuelle Darstellung der Datenmodelle
-  und ihrer Beziehungen.
+•	**Klinische Prüfungen** dienen dem Nachweis der Überlegenheit neuer Therapien und deren Unbedenklichkeit. Sie können sowohl interventionell als auch beobachtend sein. Ein häufiges Anwendungsgebiet sind Arzneimittelzulassungsstudien, für deren Durchführung strenge gesetzliche Vorgaben existieren, um die Prüfungsteilnehmer zu schützen. Kennzeichnend für klinische Prüfungen bzw. klinische Studien sind vergleichsweise kleine Probandenkollektive, eine abgegrenzte Fragestellung, ein spezifischer, aber vom Umfang her überschaubarer Datenkatalog sowie eine festgelegte Projektdauer. Viele klinische Studien teilen das Untersuchungskollektiv in verschiedene Teilkollektive (Arme) ein, welche u.U. andere Datenerhebungsverfahren bedienen. Des Weiteren werden klinische Studien häufig an mehreren Standorten (multizentrisch) durchgeführt. Typisch für klinische Studien ist ein aktives Datenmanagement, aber ein geringer Standardisierungsgrad einzelner Datenelemente zwischen verschiedenen Studien.
 
-### Zielgruppenspezifische Hinweise
+•	**Register** dienen der longitudinalen Untersuchung festgelegter Krankheitsschwerpunkte. Die Rechtsgrundlage der Datenerhebung kann hierbei variieren. Das Probandenkollektiv ist häufig größer als bei klinischen Studien und wird dauerhaft, häufig intensional bis zum Tod, beobachtet. Daraus ergeben sich spezielle Herausforderungen des Nachverfolgens von Probanden (Tracking, Record Linkage). Der Datenkatalog ähnelt von der Komplexität her klinischen Studien. Register sind üblicherweise nichtinterventionell und einarmig. Sie können mono- oder multizentrisch sein. Register verfügen je nach Ressourcen über ein aktives oder nur ein minimales Datenmanagement.
 
-* **[Anleitung für Forschende](researcher-guidance.html)** — für Forschende, die
-  Moduldaten nutzen.
-* **[Anleitung für Implementierende](implementer-guidance.html)** — technische
-  Hinweise für DIZ-Implementierende.
+•	**Kohorten** sind Untersuchungen einer großen Menge freiwilliger Probanden, die einen repräsentativen Querschnitt der Zielpopulation abbilden sollen. Kohorten untersuchen sehr breite Fragestellungen, die zu Beginn nicht vollumfänglich definiert werden. Kohorten sind längerfristig angelegt, unterscheiden sich von Registern jedoch dadurch, dass die aktive Untersuchungsphase häufig auf einen oder wenige Zeitpunkte mit einem sehr detaillierten, umfänglichen Datenkatalog beschränkt ist und danach nur sehr wenige Informationen erhoben werden (z.B. Vitalstatus, Gesundheitszustand). Aufgrund der nötigen Infrastruktur sind Kohorten häufig monozentrisch angelegt, es existieren aber auch große multizentrische Kohorten (z.B. NAKO). Typisch für Kohorten ist ein breiter Datenkörper aus strukturierten Daten, Bildern, genomischen Daten, Bioproben u.v.m., wobei aufgrund der langen Projektdauer die Erhebungsinstrumente, Geräte und Analyseverfahren Änderungen unterliegen, sodass einzelne Datenelemente standardisiert bzw. in neue Versionen überführt werden müssen. Kohorten haben ein aktives Datenmanagement, können aber aufgrund des fehlenden längerfristigen Patientenkontakts keine Rückfragen bei Inplausibilitäten durchführen.
 
-> [TODO: Ergänzen Sie modul-spezifische Hinweise, die für alle Zielgruppen
-> relevant sind — z. B. den fachlichen Geltungsbereich oder Abgrenzungen.]
-{: .ig-highlight .ig-highlight-grey}
+•	**Public Health** bzw. **Surveillance** sind Forschungsvorhaben, die sehr divergente Fragestellungen mit und ohne Probandenkontakt, mit projektspezifischer Datenerhebung oder als Sekundärverwendung anderweitig erhobener Daten, mit konkretem Krankheitsbezug oder mit breitem Untersuchungsgegenstand (z.B. Bundes-Gesundheitssurvey) umfassen. Die untersuchten Kollektive sind tendenziell größer (verglichen mit Studien und Registern). Ein besonderes Merkmal ist ein großer Anteil von Patientenbefragungen in Form von papierbasierten oder elektronischen Fragebögen, die bestimmte Verhaltensweisen, Meinungen oder Expositionen in natürlicher Sprache abfragen. Public Health bzw. Surveillance werden oft in Wellen ähnlicher Art durchgeführt. Der einzelne Proband steht hier und bei Kohorten weniger im Fokus als bei Registern oder Studien.
+•	**Anwendungsfälle** der MII sind kein spezieller Typ der medizinischen Forschung. Unter Anwendungsfällen kann jeder der vier oben genannten Typen verstanden werden, jedoch auch freie projektspezifische Forschungsvorhaben, die auf existierenden Daten basieren. Anwendungsfälle im Rahmen der MII umfassen bspw. die Konsortien-internen und -übergreifenden Use Cases, aber auch retrospektive Analysen, Machbarkeitsuntersuchungen oder Vorhaben zur Anwendung von Methoden der Künstlichen Intelligenz. Sie sind patientenorientiert in dem Sinn, dass die Nachverfolgung bspw. von eingeschlossenen oder einschließbaren Patienten eines Standorts erforderlich ist, dass eine Zuordnung zu verantwortlichen Organisationseinheiten nötig ist oder dass Projektvorhaben einer strukturierten Ablaufbeschreibung und definierten Verantwortlichkeiten unterliegen. Im Besonderen sind hier auch die basalen Prozessstellen in Projekt Deutsche Forschungsportal Gesundheit (früher ZARS) adressiert.
 
----
-Für die KDS-weiten Konformitätsanforderungen siehe die
-[Konformitätsregeln des Meta-Moduls](https://github.com/medizininformatik-initiative/kerndatensatz-meta/wiki/Conformance);
-für die technischen Artefakte siehe [Profile](profiles.html).
+### Beschreibung von Szenarien für die Anwendung der Module
+
+Das Team des Moduls Medizinisches Forschungsvorhaben hat zu Beginn eine große Menge an möglichen Szenarien entwickelt, die Einfluss auf die Ausgestaltung und den Umfang des Moduls haben würden. Um zu einer ersten konsentierbaren Version zu kommen, wurden folgende Schwerpunkte herausgestellt, auf die sich das vorliegende Modell fokussiert:
+
+**1.**	Unterstützung des Konzepts der Forschungsstudie im Sinne eines strukturierten Projekts mit Merkmalen zur Identifizierung und Verwaltung eines Forschungsvorhabens und zur Abbildung der basalen charakterisierenden Merkmale (Studienregister)
+
+**2.**	Unterstützung des Konzepts des Probanden im Sinne eines identifizierbaren Subjekts und Abbildung der basalen charakterisierenden Merkmale zur Nachverfolgung und Auffindbarkeit
+
+**3.**	Unterstützung des Konzepts der Eignung im Sinne der Möglichkeit, strukturierte Ein- und Ausschlusskriterien zu definieren, anhand derer mindestens teilautomatisiert entschieden werden kann, ob ein Individuum mit seinen intrinsischen Eigenschaften zur Zielpopulation gehört oder nicht.

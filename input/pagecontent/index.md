@@ -1,32 +1,22 @@
 <!-- markdownlint-disable MD041 -->
-<!--
-  HOME PAGE — English is the IG's DEFAULT language, so this file is the source.
-  Structure follows the standard MII module IG page set (kerndatensatz-basis
-  input/pagecontent/index.md). Replace the {{...}} placeholders and the bracketed
-  [TODO ...] prompts with your module's real content, then delete these HTML
-  comments. Keep the section headings — a reviewer expects them. The German
-  translation of this page lives at input/translations/de/pagecontent/index.md
-  (see docs/recipes/add-translation.md) — keep both in step.
--->
-
+<!-- TODO:REVIEW machine translation of the German source (Gate C) -->
 ### Introduction
 
 This specification describes the FHIR representation of the Core Dataset (CDS)
-module **{{MODULE_TITLE}}** of the Medical Informatics Initiative (MII). It
-covers the module's use cases and the associated FHIR profiles, extensions and
-terminology resources in their normative form. The MII Core Dataset enables the
-standardized secondary use of routine clinical data for medical research.
-
-> [TODO: In one or two sentences, describe what your module covers and what the
-> data is used for.]
-{: .ig-highlight .ig-highlight-grey}
+extension module **Medizinisches Forschungsvorhaben** (medical research project,
+"Studie") of the Medical Informatics Initiative (MII). It covers the module's
+use cases and the associated FHIR profiles and terminology resources in their
+normative form.
 
 | Publication |               |
 |-------------|---------------|
-| Date        | {{RELEASE_DATE}} |
-| Version     | {{CALVER_VERSION}} (CalVer `YYYY.n.n`) |
+| Date        | 2026-01-09    |
+| Version     | 2026.0.1 (CalVer `YYYY.n.n`) |
 | Status      | active        |
 | Realm       | DE            |
+
+The first release is available at
+[2025.0.0](https://www.medizininformatik-initiative.de/Kerndatensatz/KDS_Medizinische_Forschungsvorhaben_V2025/ImplementationGuide-1.x-TechnischeImplementierung-Organization.html).
 
 ### Target audience
 
@@ -36,15 +26,9 @@ standardized secondary use of routine clinical data for medical research.
 → see <a href="profiles.html">Profiles</a> and <a href="logical-models.html">Logical Models</a>.</p>
 </div>
 
-<div class="ig-highlight ig-highlight-green">
-<h5>Researchers</h5>
-<p>Scientists using KDS data for medical research.<br/>
-→ see <a href="researcher-guidance.html">Guidance for Researchers</a>.</p>
-</div>
-
 ### Contents
 
-- **[Guidance](guidance.html)** — getting started and domain notes.
+- **[Guidance](guidance.html)** — module description and use-case scenarios.
 - **Conformance** — the KDS-wide conformance rules (requirements language,
   Must Support, handling missing data) are maintained centrally by the
   [Meta module](https://github.com/medizininformatik-initiative/kerndatensatz-meta/wiki/Conformance);
@@ -53,7 +37,7 @@ standardized secondary use of routine clinical data for medical research.
 - **[Profiles](profiles.html)** and the further
   **[artifact pages](artifacts.html)** — the technical artifacts.
 - **[Examples](examples.html)** — example instances.
-- **[Dependencies](ImplementationGuide-mii-ig-{{MODULE_SLUG}}.html)** — the
+- **[Dependencies](ImplementationGuide-mii-ig-studie.html)** — the
   ImplementationGuide resource with the dependency table, cross-version
   analysis and copyright statements.
 
@@ -61,58 +45,47 @@ standardized secondary use of routine clinical data for medical research.
 
 This module is part of the MII Core Dataset; the other KDS modules and their
 dependencies are described at
-[medizininformatik-initiative.de](https://www.medizininformatik-initiative.de/).
+[medizininformatik-initiative.de](https://www.medizininformatik-initiative.de/de/der-kerndatensatz-der-medizininformatik-initiative).
 
-> [TODO: Name your module's formal dependencies (see `dependencies` in
-> `sushi-config.yaml`) and any related guides.]
-{: .ig-highlight .ig-highlight-grey}
+### Legal notice (Impressum)
 
-More FHIR implementation guides can be found in the official
-**[FHIR IG Registry](https://fhir.org/guides/registry/)** (source:
-[`FHIR/ig-registry`](https://github.com/FHIR/ig-registry)).
-
-### Imprint
-
-This guide was created within the Medical Informatics Initiative and is subject,
-by its governance process, to the coordination procedure of the Interoperability
-Forum and the technical committees of HL7 Germany.
+This guide was produced within the Medical Informatics Initiative and is, per
+its governance process, subject to the ballot procedure of the Technical
+Committee of HL7 Deutschland e. V.
 
 ### Contact
 
-Questions about this publication can be asked on the HL7 FHIR Zulip
-[chat.fhir.org](https://chat.fhir.org) in the `german/mi-initiative` stream, or
-on the MII Zulip [mii.zulipchat.com](https://mii.zulipchat.com/) in the
-`MII-Kerndatensatz` stream.
-Comments and issues are welcome as *Issues* on
-[GitHub](https://github.com/{{GITHUB_ORG}}/{{REPO_NAME}}/issues).
+* Matthias Löbe, Inst. for Medical Informatics (IMISE), University of Leipzig
+* Karoline Buckow, TMF – Technologie- und Methodenplattform für die vernetzte
+  medizinische Forschung e. V.
 
-> [TODO: Name your module's domain contacts.]
-{: .ig-highlight .ig-highlight-grey}
+Questions about this publication can be raised at any time on
+[chat.fhir.org](https://chat.fhir.org/#narrow/stream/179307-german.2Fmi-initiative)
+in the stream 'german/mi-initiative'. Comments and criticism are welcome as
+issues in the
+[GitHub repository](https://github.com/medizininformatik-initiative/kerndatensatzmodul-studie/issues).
 
 ### Authors (in alphabetical order)
 
-> [TODO: List the module's authors with their institution.]
-{: .ig-highlight .ig-highlight-grey}
+Bartow, Martin · Brix, Tobias · Gatrio, Margaux · Gulden, Christian · Löbe,
+Matthias · Macho, Philipp Marten · Rinaldi, Eugenia · Scherer, Clemens ·
+Strauch, Natalia · Ulbrich, Florian · Vella, Gustav · Zautke, Alexander
 
-### Copyright and License
+### Copyright and license
 
-© {{COPYRIGHT_START_YEAR}}+ TMF e. V., Charlottenstraße 42, 10117 Berlin
-
-This work is licensed under the
-[Creative Commons Attribution 4.0 International License (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/).
+© 2019+ TMF e. V., Charlottenstraße 42, 10117 Berlin. This work is licensed
+under the
+[Creative Commons Attribution 4.0 International License](https://creativecommons.org/licenses/by/4.0/).
 
 For the usage rights of the underlying FHIR technology, see the FHIR base
-specification.
-
-Some of the code systems used are published and maintained by other
-organizations; the copyright of the respective publishers applies.
+specification. Some code systems used are published and maintained by other
+organisations; the copyright of the respective publisher applies.
 
 ### Disclaimer
 
-The content of this document is public. Please note that parts of this
-document are based on FHIR version R4, which is copyrighted by
-HL7 International.
-
-Although this publication was prepared with the greatest care, the authors
-cannot accept any liability for direct or indirect damage that may arise from
-the content of this specification.
+* The content of this document is public. Note that parts of this document are
+  based on FHIR version R4, for which the copyright of HL7 International
+  applies.
+* Although this publication was prepared with the greatest care, the authors
+  cannot accept any liability for direct or indirect damage arising from the
+  content of this specification.

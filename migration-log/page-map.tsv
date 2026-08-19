@@ -1,0 +1,30 @@
+source_page	target_page	reason
+TechnischeImplementierung/FHIR-Profile/ResearchStudy.page.md	intro-notes/StructureDefinition-mii-pr-studie-studie-intro.md	
+TechnischeImplementierung/FHIR-Profile/ResearchStudy.page.md#Suchparameter	search-parameters.md	
+TechnischeImplementierung/FHIR-Profile/ResearchSubject.page.md	intro-notes/StructureDefinition-mii-pr-studie-proband-intro.md	
+TechnischeImplementierung/FHIR-Profile/ResearchSubject.page.md#Suchparameter	search-parameters.md	
+TechnischeImplementierung/FHIR-Profile/Library.page.md	intro-notes/StructureDefinition-mii-pr-studie-register-intro.md	
+TechnischeImplementierung/FHIR-Profile/Library.page.md#Suchparameter	search-parameters.md	
+TechnischeImplementierung/FHIR-Profile/EvidenceVariable.page.md	intro-notes/StructureDefinition-mii-pr-studie-ein-auschluss-kriterium-intro.md	
+TechnischeImplementierung/FHIR-Profile/EvidenceVariable.page.md#Suchparameter	search-parameters.md	
+TechnischeImplementierung/FHIR-Profile/StudyInclusion.page.md	intro-notes/StructureDefinition-mii-pr-studie-studieneinschluss-anfrage-intro.md	
+TechnischeImplementierung/FHIR-Profile/StudyInclusion.page.md#Suchparameter	search-parameters.md	
+TechnischeImplementierung/FHIR-Profile/DocumentReference.page.md	intro-notes/StructureDefinition-mii-pr-studie-dokument-intro.md	
+TechnischeImplementierung/FHIR-Profile/DocumentReference.page.md#Suchparameter	search-parameters.md	
+TechnischeImplementierung/FHIR-Profile/PractitionerRole.page.md	intro-notes/StructureDefinition-mii-pr-studie-beteiligte-person-intro.md	
+TechnischeImplementierung/FHIR-Profile/PractitionerRole.page.md#Suchparameter	search-parameters.md	
+Index.page.md	index.md	
+BeschreibungModul.page.md	guidance.md	
+KontextimGesamtprojektBezgezuanderenModulen.page.md	implementer-guidance.md	
+Referenzen.page.md	implementer-guidance.md	
+Release-Notes.page.md	changes.md	
+AnwendungsflleInformationsmodell/Index.page.md	RETIRED	source page is deliberately empty ("Diese Seite wurde absichtlich leer gelassen")
+AnwendungsflleInformationsmodell/BeschreibungvonSzenarienfrdieAnwendungderModule.page.md	guidance.md	
+AnwendungsflleInformationsmodell/Datenstzeinkl.Beschreibungen.page.md	logical-models.md	
+AnwendungsflleInformationsmodell/UML.page.md	uml-diagrams.md	
+TechnischeImplementierung/Index.page.md	RETIRED	source page is deliberately empty
+TechnischeImplementierung/Terminologie.page.md	value-sets.md	split rule: also code-systems.md
+TechnischeImplementierung/CapabilityStatement.page.md	capability-statements.md	
+TechnischeImplementierung/FHIR-Profile/Index.page.md	profiles.md	
+TechnischeImplementierung/FHIR-Profile/FHIR-Profile.page.md	RETIRED	near-duplicate of FHIR-Profile/Index.page.md (same text, older warning table)
+TechnischeImplementierung/FHIR-Profile/Organization.page.md	implementer-guidance.md	reused STRUKTURDATEN profile; mapping tables summarized, full tables remain source-only (TODO:REVIEW)

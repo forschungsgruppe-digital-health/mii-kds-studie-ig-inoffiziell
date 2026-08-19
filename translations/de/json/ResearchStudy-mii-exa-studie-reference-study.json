@@ -1,0 +1,13 @@
+{
+  "id" : "ResearchStudy-mii-exa-studie-reference-study",
+  "baseLang" : "en",
+  "languages" : [{
+    "targetLang" : "de",
+    "entries" : [{
+      "id" : "ResearchStudy.title",
+      "context" : "ResearchStudy.title",
+      "source" : "Example Reference Study",
+      "target" : null
+    }]
+  }]
+}

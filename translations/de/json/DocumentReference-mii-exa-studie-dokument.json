@@ -1,0 +1,13 @@
+{
+  "id" : "DocumentReference-mii-exa-studie-dokument",
+  "baseLang" : "en",
+  "languages" : [{
+    "targetLang" : "de",
+    "entries" : [{
+      "id" : "Attachment.title",
+      "context" : "Attachment.title",
+      "source" : "Beispiel Dokument",
+      "target" : null
+    }]
+  }]
+}

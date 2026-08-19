@@ -1,0 +1,7 @@
+{
+  "id" : "Consent-mii-exa-studie-consent",
+  "baseLang" : "en",
+  "languages" : [{
+    "targetLang" : "de"
+  }]
+}

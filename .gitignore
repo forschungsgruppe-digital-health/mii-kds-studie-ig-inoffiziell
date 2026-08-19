@@ -21,3 +21,9 @@ node_modules/
 # --- OS / editor noise ---
 .DS_Store
 *.log
+
+# migration probe outputs (never committed)
+temp/
+output/
+fsh-generated/
+input-cache/

@@ -1,53 +1,34 @@
 <!-- markdownlint-disable MD041 -->
-<!--
-  HOME PAGE — GERMAN TRANSLATION of the source page input/pagecontent/index.md
-  (English is the IG's default language). The structure follows the standard MII
-  module IG page set (MII IG template and kerndatensatz-basis). Replace the
-  {{...}} placeholders and the bracketed [TODO ...] prompts with your module's
-  real content, then delete these HTML comments. Keep the section headings — a
-  reviewer expects them. See docs/recipes/add-translation.md; keep this file in
-  step with the English source.
--->
-
+<!-- Quelle: MIIIGModulStudie @1394b43 (kerndatensatzmodul-studie v2026.0.1) -->
 ### Einleitung
 
-Diese Spezifikation beschreibt die FHIR-Repräsentation des
-Kerndatensatz-(KDS-)Moduls **{{MODULE_TITLE}}** der Medizininformatik-Initiative
-(MII). Sie beschreibt die Anwendungsfälle des Moduls sowie die zugehörigen
-FHIR-Profile, Extensions und Terminologie-Ressourcen in ihrer verbindlichen
-Form. Der MII-Kerndatensatz dient der standardisierten Nutzung klinischer
-Routinedaten für die medizinische Forschung.
+Die vorliegende Spezifikation beschreibt die FHIR-Repräsentation des
+Kerndatensatz-Erweiterungsmoduls **Medizinisches Forschungsvorhaben**
+(„Studie") der Medizininformatik-Initiative (MII). Im Folgenden werden die
+Use-Cases des Moduls sowie die dazugehörigen FHIR-Profile und
+Terminologie-Ressourcen in ihrer verbindlichen Form beschrieben.
 
-> [TODO: Beschreiben Sie in ein bis zwei Sätzen den fachlichen Gegenstand Ihres
-> Moduls — welche Daten es abdeckt und wofür sie genutzt werden.]
-{: .ig-highlight .ig-highlight-grey}
+| Veröffentlichung |            |
+|---------|--------------|
+| Datum   | 09.01.2026   |
+| Version | 2026.0.1 (CalVer `JJJJ.n.n`) |
+| Status  | active       |
+| Realm   | DE           |
 
-| Veröffentlichung |               |
-|------------------|---------------|
-| Datum            | {{RELEASE_DATE}} |
-| Version          | {{CALVER_VERSION}} (CalVer `JJJJ.n.n`) |
-| Status           | active        |
-| Realm            | DE            |
+Den ersten Release finden Sie unter
+[2025.0.0](https://www.medizininformatik-initiative.de/Kerndatensatz/KDS_Medizinische_Forschungsvorhaben_V2025/ImplementationGuide-1.x-TechnischeImplementierung-Organization.html).
 
 ### Zielgruppe
 
-Dieser Implementierungsleitfaden richtet sich an:
-
 <div class="ig-highlight ig-highlight-blue">
 <h5>Implementierende</h5>
-<p>Datenintegrationszentren (DIZ), Software-Entwickelnde und System-Architekt:innen, die FHIR-basierte Lösungen umsetzen.<br/>
+<p>Datenintegrationszentren (DIZ), Softwareentwickler:innen und Systemarchitekt:innen, die FHIR-basierte Lösungen umsetzen.<br/>
 → siehe <a href="profiles.html">Profile</a> und <a href="logical-models.html">Logische Modelle</a>.</p>
-</div>
-
-<div class="ig-highlight ig-highlight-green">
-<h5>Forschende</h5>
-<p>Wissenschaftler:innen, die KDS-Daten für die medizinische Forschung nutzen.<br/>
-→ siehe <a href="researcher-guidance.html">Anleitung für Forschende</a>.</p>
 </div>
 
 ### Inhalt dieses Leitfadens
 
-- **[Anleitung](guidance.html)** — Einstieg und fachliche Hinweise.
+- **[Anleitung](guidance.html)** — Modulbeschreibung und Anwendungsszenarien.
 - **Konformität** — die KDS-weiten Konformitätsregeln (Anforderungssprache,
   Must-Support, Umgang mit fehlenden Daten) pflegt zentral das
   [Meta-Modul](https://github.com/medizininformatik-initiative/kerndatensatz-meta/wiki/Conformance);
@@ -57,7 +38,7 @@ Dieser Implementierungsleitfaden richtet sich an:
 - **[Profile](profiles.html)** und die weiteren
   **[Artefakt-Seiten](artifacts.html)** — die technischen Artefakte.
 - **[Beispiele](examples.html)** — Beispielinstanzen.
-- **[Abhängigkeiten](ImplementationGuide-mii-ig-{{MODULE_SLUG}}.html)** — die
+- **[Abhängigkeiten](ImplementationGuide-mii-ig-studie.html)** — die
   ImplementationGuide-Ressource mit Abhängigkeitstabelle, versionsübergreifender
   Analyse und Urheberrechtshinweisen.
 
@@ -65,59 +46,50 @@ Dieser Implementierungsleitfaden richtet sich an:
 
 Dieses Modul ist Teil des MII-Kerndatensatzes; die weiteren KDS-Module und ihre
 Abhängigkeiten sind unter
-[medizininformatik-initiative.de](https://www.medizininformatik-initiative.de/)
+[medizininformatik-initiative.de](https://www.medizininformatik-initiative.de/de/der-kerndatensatz-der-medizininformatik-initiative)
 beschrieben.
-
-> [TODO: Nennen Sie die formalen Abhängigkeiten (siehe `dependencies` in
-> `sushi-config.yaml`) und verwandte Leitfäden Ihres Moduls.]
-{: .ig-highlight .ig-highlight-grey}
-
-Weitere FHIR-Implementierungsleitfäden finden Sie im offiziellen
-**[FHIR IG Registry](https://fhir.org/guides/registry/)** (Quelle:
-[`FHIR/ig-registry`](https://github.com/FHIR/ig-registry)).
 
 ### Impressum
 
 Dieser Leitfaden ist im Rahmen der Medizininformatik-Initiative erstellt worden
-und unterliegt per Governance-Prozess dem Abstimmungsverfahren des
-Interoperabilitätsforums und der Technischen Komitees von HL7 Deutschland e. V.
+und unterliegt per Governance-Prozess dem Abstimmungsverfahren des Technischen
+Komitees von HL7 Deutschland e. V.
 
 ### Ansprechpartner
 
-Fragen zu dieser Publikation können im HL7-FHIR-Zulip
-[chat.fhir.org](https://chat.fhir.org) im Stream `german/mi-initiative` oder im
-MII-Zulip [mii.zulipchat.com](https://mii.zulipchat.com/) im Stream
-`MII-Kerndatensatz` gestellt werden.
-Anmerkungen und Kritik werden als *Issues* auf
-[GitHub](https://github.com/{{GITHUB_ORG}}/{{REPO_NAME}}/issues) entgegengenommen.
+* Matthias Löbe, Inst. for Medical Informatics (IMISE), University of Leipzig
+* Karoline Buckow, TMF – Technologie- und Methodenplattform für die vernetzte
+  medizinische Forschung e. V.
 
-> [TODO: Nennen Sie die fachlichen Ansprechpartner:innen Ihres Moduls.]
-{: .ig-highlight .ig-highlight-grey}
+Fragen zu der vorliegenden Publikation können jederzeit unter
+[chat.fhir.org](https://chat.fhir.org/#narrow/stream/179307-german.2Fmi-initiative)
+im Stream 'german/mi-initiative' gestellt werden. Anmerkungen und Kritik wird
+in Form von 'Issues' im
+[GitHub-Repository](https://github.com/medizininformatik-initiative/kerndatensatzmodul-studie/issues)
+gern entgegengenommen.
 
 ### Autor:innen (in alphabetischer Reihenfolge)
 
-> [TODO: Listen Sie die Autor:innen des Moduls mit Institution auf.]
-{: .ig-highlight .ig-highlight-grey}
+Bartow, Martin · Brix, Tobias · Gatrio, Margaux · Gulden, Christian · Löbe,
+Matthias · Macho, Philipp Marten · Rinaldi, Eugenia · Scherer, Clemens ·
+Strauch, Natalia · Ulbrich, Florian · Vella, Gustav · Zautke, Alexander
 
 ### Urheberrecht und Lizenz
 
-© {{COPYRIGHT_START_YEAR}}+ TMF e. V., Charlottenstraße 42, 10117 Berlin
+© 2019+ TMF e. V., Charlottenstraße 42, 10117 Berlin. Dieses Werk ist
+lizenziert unter der
+[Creative Commons Namensnennung 4.0 International Lizenz](https://creativecommons.org/licenses/by/4.0/).
 
-Dieses Werk ist lizenziert unter der
-[Creative Commons Namensnennung 4.0 International Lizenz (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/deed.de).
-
-Für die Nutzungsrechte der zugrunde liegenden FHIR-Technologie siehe die
-FHIR-Basisspezifikation.
-
-Einige der verwendeten Codesysteme werden von anderen Organisationen
-veröffentlicht und gepflegt; es gilt das Urheberrecht der jeweiligen Herausgeber.
+Zu den Nutzungsrechten der zugrunde liegenden FHIR-Technologie siehe die
+FHIR-Basis-Spezifikation. Einige verwendete Codesysteme werden von anderen
+Organisationen herausgegeben und gepflegt; es gilt das Copyright der dort
+jeweils aufgeführten Herausgeber (Publisher).
 
 ### Haftungsausschluss
 
-Der Inhalt dieses Dokuments ist öffentlich. Bitte beachten Sie, dass Teile
-dieses Dokuments auf FHIR Version R4 basieren, dessen Urheberrecht bei
-HL7 International liegt.
-
-Obwohl diese Publikation mit größter Sorgfalt erstellt wurde, können die
-Autor:innen keine Haftung für direkte oder indirekte Schäden übernehmen, die
-aus dem Inhalt dieser Spezifikation entstehen könnten.
+* Der Inhalt dieses Dokuments ist öffentlich. Zu beachten ist, dass Teile
+  dieses Dokuments auf FHIR Version R4 beruhen, für die das Copyright von HL7
+  International gilt.
+* Obwohl diese Publikation mit größter Sorgfalt erstellt wurde, können die
+  Autoren keinerlei Haftung für direkten oder indirekten Schaden übernehmen,
+  der durch den Inhalt dieser Spezifikation entstehen könnte.

@@ -6,7 +6,6 @@
      Inhalt — behalten; Stufe 3 füllt Ihr Modul aus. Beide Sprachfassungen
      müssen dasselbe aussagen. -->
 
-
 Dieser Abschnitt richtet sich an Sicherheits- und Datenschutz-Fachleute.
 Allgemeine Anforderungen stehen in der FHIR-Kernspezifikation —
 [Security & Privacy Module](https://build.fhir.org/secpriv-module.html) und die
@@ -54,18 +53,6 @@ Sie ihn wörtlich):
 > führt dieses Modul keine Datenkategorie, die eigene Sicherheits- oder
 > Datenschutzaspekte aufwirft, und stellt keine modulspezifischen Sicherheits-
 > oder Datenschutzanforderungen an Implementierende.
-
-<!-- ILLUSTRATIVE-EXAMPLE — Abschnitt entscheiden und die Beispiel-Box unten
-     (in dieser Datei UND der englischen Quellseite) vor dem ersten Release
-     entfernen; der Konventions-Check (M11) lässt einen Release-Branch damit
-     fehlschlagen. -->
-> **Illustratives Beispiel — vor dem ersten Release entfernen.** So füllt ein
-> anderes KDS-Modul diesen Abschnitt (*Person*): die Patienten-Identifikatoren
-> sind Pseudonyme der Treuhandstelle; Systeme dürfen ein Record Linkage nicht
-> zur Re-Identifizierung führen lassen, und der Geltungsbereich eines
-> Pseudonyms (standortweit vs. projektspezifisch) ist beim Zusammenführen von
-> Daten zu respektieren.
-{: .ig-highlight .ig-highlight-orange}
 
 > [TODO: Nennen Sie die spezifischen Aspekte Ihres Moduls — die geführten
 > Datenkategorien und ihre Sensibilität, Risiken, die eine Pseudonymisierung
