@@ -27,7 +27,7 @@ Suchparameter für EvidenceVariable.characteristic.description
   "name" : "SP_MII_Studie_CharacteristicDescription",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-08-20T09:46:33+00:00",
+  "date" : "2026-08-20T09:52:29+00:00",
   "publisher" : "NUM-DIZ",
   "_publisher" : {
     "extension" : [{
