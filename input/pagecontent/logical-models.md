@@ -1,5 +1,5 @@
 <!-- markdownlint-disable MD041 -->
-<!-- TODO:REVIEW machine translation of the German source (Gate C) -->
+<!-- TODO:REVIEW machine translation of the source narrative (de); review at Gate C -->
 The information model of the Medizinisches Forschungsvorhaben module is
 represented as a FHIR Logical Model:
 

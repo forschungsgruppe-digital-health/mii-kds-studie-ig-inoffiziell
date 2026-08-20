@@ -1,5 +1,5 @@
 <!-- markdownlint-disable MD041 -->
-<!-- TODO:REVIEW machine translation of the German source (Gate C) -->
+<!-- TODO:REVIEW machine translation of the source narrative (de); review at Gate C -->
 The module uses MII calendar versioning `YYYY.n.n`.
 
 | Version | Date | Notes |

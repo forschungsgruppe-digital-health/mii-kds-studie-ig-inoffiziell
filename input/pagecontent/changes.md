@@ -1,6 +1,6 @@
 <!-- markdownlint-disable MD041 -->
-<!-- TODO:REVIEW machine translation of the German source (Gate C) -->
-<!-- German-language release notes carried verbatim from the source guide; the module's change history is German by origin. -->
+<!-- TODO:REVIEW machine translation of the source narrative (de); review at Gate C -->
+<!-- Release notes carried verbatim from the source guide (de); the module's change history originates in that language. -->
 
 Hier sind alle Änderungen aufgelistet. 
 

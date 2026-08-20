@@ -1,5 +1,5 @@
 <!-- markdownlint-disable MD041 -->
-<!-- TODO:REVIEW machine translation of the German source (Gate C) -->
+<!-- TODO:REVIEW machine translation of the source narrative (de); review at Gate C -->
 The Core Dataset specifications build, where possible, on international
 standards and terminologies — notably the
 [International Patient Summary](http://hl7.org/fhir/uv/ips/history.html).

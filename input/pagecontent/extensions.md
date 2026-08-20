@@ -1,5 +1,5 @@
 <!-- markdownlint-disable MD041 -->
-<!-- TODO:REVIEW machine translation of the German source (Gate C) -->
+<!-- TODO:REVIEW machine translation of the source narrative (de); review at Gate C -->
 The module defines six extensions of its own and ships eight FHIR R5 backport
 extensions (prefixed `backport-`) that carry R5 semantics into the R4
 representation — see the [artifacts summary](artifacts.html) for the complete

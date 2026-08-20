@@ -1,5 +1,5 @@
 <!-- markdownlint-disable MD041 -->
-<!-- TODO:REVIEW machine translation of the German source (Gate C) -->
+<!-- TODO:REVIEW machine translation of the source narrative (de); review at Gate C -->
 The module's search parameters are grouped per profile below; the 15 SearchParameter artifacts
 themselves are listed in the [artifacts summary](artifacts.html).
 

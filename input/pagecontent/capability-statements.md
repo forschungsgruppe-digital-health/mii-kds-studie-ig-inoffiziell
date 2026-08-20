@@ -1,5 +1,5 @@
 <!-- markdownlint-disable MD041 -->
-<!-- TODO:REVIEW machine translation of the German source (Gate C) -->
+<!-- TODO:REVIEW machine translation of the source narrative (de); review at Gate C -->
 To enable decentralized data analysis via the Deutsches Forschungsdatenportal
 für Gesundheit of the MII, the
 [capabilities interaction](https://www.hl7.org/fhir/http.html#capabilities)
