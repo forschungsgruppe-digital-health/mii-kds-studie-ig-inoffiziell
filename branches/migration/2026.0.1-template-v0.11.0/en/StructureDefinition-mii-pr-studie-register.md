@@ -9,7 +9,7 @@
 | | |
 | :--- | :--- |
 | *Official URL*:https://www.medizininformatik-initiative.de/fhir/modul-studie/StructureDefinition/mii-pr-studie-register | *Version*:2026.0.1 |
-| Active as of 2026-08-19 | *Computable Name*:MII_PR_Studie_Register |
+| Active as of 2026-08-20 | *Computable Name*:MII_PR_Studie_Register |
 
  
 This profile describes a research registry within the Medical Informatics Initiative. 
@@ -123,7 +123,7 @@ Other representations of profile: [CSV](../StructureDefinition-mii-pr-studie-reg
     }]
   },
   "status" : "active",
-  "date" : "2026-08-19T21:26:17+00:00",
+  "date" : "2026-08-20T09:40:04+00:00",
   "publisher" : "NUM-DIZ",
   "_publisher" : {
     "extension" : [{

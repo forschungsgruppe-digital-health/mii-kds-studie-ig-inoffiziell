@@ -9,7 +9,7 @@
 | | |
 | :--- | :--- |
 | *Offizielle URL*:https://www.medizininformatik-initiative.de/fhir/modul-studie/SearchParameter/EvidenceVariable-characteristic-description | *Version*:2026.0.1 |
-| Active Stand: 2026-08-19 | *Maschinenlesbarer Name*:SP_MII_Studie_CharacteristicDescription |
+| Active Stand: 2026-08-20 | *Maschinenlesbarer Name*:SP_MII_Studie_CharacteristicDescription |
 
  
 Suchparameter für EvidenceVariable.characteristic.description 
@@ -27,7 +27,7 @@ Suchparameter für EvidenceVariable.characteristic.description
   "name" : "SP_MII_Studie_CharacteristicDescription",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-08-19T21:26:17+00:00",
+  "date" : "2026-08-20T09:40:04+00:00",
   "publisher" : "NUM-DIZ",
   "_publisher" : {
     "extension" : [{

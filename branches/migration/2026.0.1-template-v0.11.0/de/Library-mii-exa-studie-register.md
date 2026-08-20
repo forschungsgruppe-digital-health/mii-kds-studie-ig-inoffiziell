@@ -9,7 +9,7 @@
 | | |
 | :--- | :--- |
 | *Offizielle URL*:https://www.medizininformatik-initiative.de/fhir/modul-studie/Library/mii-exa-studie-register | *Version*:2026.0.1 |
-| Active Stand: 2026-08-19 | *Maschinenlesbarer Name*:DRKS - Deutsches Register Klinischer Studien |
+| Active Stand: 2026-08-20 | *Maschinenlesbarer Name*:DRKS - Deutsches Register Klinischer Studien |
 | *Weitere Identifikatoren:*https://example.com/fhir/sid/drks#DRKS | |
 
 -------
@@ -18,7 +18,7 @@
 
 -------
 
-**Exception parsing generated Narrative (see /tmp/liquid-c9d5ed14-4cb3-4e67-813f-ed269e065dc1.html): unexpected non-end of element null::a at line 130 column 50**
+**Exception parsing generated Narrative (see /tmp/liquid-53cabd16-1aef-4d40-9f9f-ade0f3f458a2.html): unexpected non-end of element null::a at line 130 column 50**
 
 
 
@@ -45,7 +45,7 @@
       "code" : "asset-collection"
     }]
   },
-  "date" : "2026-08-19T21:26:17+00:00",
+  "date" : "2026-08-20T09:40:04+00:00",
   "publisher" : "NUM-DIZ",
   "contact" : [{
     "name" : "NUM-DIZ",

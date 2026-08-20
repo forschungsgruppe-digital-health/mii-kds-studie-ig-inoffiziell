@@ -9,7 +9,7 @@
 | | |
 | :--- | :--- |
 | *Offizielle URL*:http://hl7.org/fhir/5.0/StructureDefinition/extension-EvidenceVariable.characteristic.definitionByTypeAndValue | *Version*:2026.0.1 |
-| Active Stand: 2026-08-19 | *Maschinenlesbarer Name*:MII_EX_Studie_Backport_Definition_By_Type_And_Value |
+| Active Stand: 2026-08-20 | *Maschinenlesbarer Name*:MII_EX_Studie_Backport_Definition_By_Type_And_Value |
 
 **Context of Use**
 
@@ -84,7 +84,7 @@ Weitere Repräsentationen des Profils: [CSV](../StructureDefinition-mii-ex-studi
   "name" : "MII_EX_Studie_Backport_Definition_By_Type_And_Value",
   "title" : "MII EX Studie Backport DefinitionByTypeAndValue",
   "status" : "active",
-  "date" : "2026-08-19T21:26:17+00:00",
+  "date" : "2026-08-20T09:40:04+00:00",
   "publisher" : "NUM-DIZ",
   "_publisher" : {
     "extension" : [{

@@ -9,7 +9,7 @@
 | | |
 | :--- | :--- |
 | *Official URL*:https://www.medizininformatik-initiative.de/fhir/modul-studie/SearchParameter/ResearchStudy-studienregister | *Version*:2026.0.1 |
-| Active as of 2026-08-19 | *Computable Name*:SP_MII_Studie_Studienregister |
+| Active as of 2026-08-20 | *Computable Name*:SP_MII_Studie_Studienregister |
 
  
 Suchparameter für ResearchStudy.extension:Studienregister 
@@ -27,7 +27,7 @@ Suchparameter für ResearchStudy.extension:Studienregister
   "name" : "SP_MII_Studie_Studienregister",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-08-19T21:26:17+00:00",
+  "date" : "2026-08-20T09:40:04+00:00",
   "publisher" : "NUM-DIZ",
   "_publisher" : {
     "extension" : [{

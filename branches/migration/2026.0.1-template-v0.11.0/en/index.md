@@ -55,7 +55,18 @@ Questions about this publication can be raised at any time on [chat.fhir.org](ht
 
 ### Authors (in alphabetical order)
 
-Bartow, Martin · Brix, Tobias · Gatrio, Margaux · Gulden, Christian · Löbe, Matthias · Macho, Philipp Marten · Rinaldi, Eugenia · Scherer, Clemens · Strauch, Natalia · Ulbrich, Florian · Vella, Gustav · Zautke, Alexander
+* Bartow, Martin
+* Brix, Tobias
+* Gatrio, Margaux
+* Gulden, Christian
+* Löbe, Matthias
+* Macho, Philipp Marten
+* Rinaldi, Eugenia
+* Scherer, Clemens
+* Strauch, Natalia
+* Ulbrich, Florian
+* Vella, Gustav
+* Zautke, Alexander
 
 ### Copyright and license
 
@@ -65,6 +76,7 @@ For the usage rights of the underlying FHIR technology, see the FHIR base specif
 
 ### Disclaimer
 
-* The content of this document is public. Note that parts of this document are based on FHIR version R4, for which the copyright of HL7 International applies.
-* Although this publication was prepared with the greatest care, the authors cannot accept any liability for direct or indirect damage arising from the content of this specification.
+The content of this document is public. Note that parts of this document are based on FHIR version R4, for which the copyright of HL7 International applies.
+
+Although this publication was prepared with the greatest care, the authors cannot accept any liability for direct or indirect damage arising from the content of this specification.
 

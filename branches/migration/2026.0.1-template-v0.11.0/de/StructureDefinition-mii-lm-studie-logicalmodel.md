@@ -9,7 +9,7 @@
 | | |
 | :--- | :--- |
 | *Offizielle URL*:https://www.medizininformatik-initiative.de/fhir/modul-studie/StructureDefinition/mii-lm-studie-logicalmodel | *Version*:2026.0.1 |
-| Active Stand: 2026-08-19 | *Maschinenlesbarer Name*:MII_LM_Studie_LogicalModel |
+| Active Stand: 2026-08-20 | *Maschinenlesbarer Name*:MII_LM_Studie_LogicalModel |
 
  
 Logische Repräsentation der Forschungsvorhaben 
@@ -93,7 +93,7 @@ Weitere Repräsentationen des Profils: [CSV](../StructureDefinition-mii-lm-studi
   "name" : "MII_LM_Studie_LogicalModel",
   "title" : "MII LM Studie LogicalModel",
   "status" : "active",
-  "date" : "2026-08-19T21:26:17+00:00",
+  "date" : "2026-08-20T09:40:04+00:00",
   "publisher" : "NUM-DIZ",
   "_publisher" : {
     "extension" : [{

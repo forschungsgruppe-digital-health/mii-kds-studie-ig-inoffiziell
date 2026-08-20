@@ -9,5 +9,5 @@ To enable decentralized data analysis via the Deutsches Forschungsdatenportal fÃ
 
 Conformance to the module's CapabilityStatement MUST additionally be declared in the respective CapabilityStatement instance via [`CapabilityStatement.instantiates`](https://www.hl7.org/fhir/capabilitystatement-definitions.html#CapabilityStatement.instantiates).
 
-Canonical: `https://www.medizininformatik-initiative.de/fhir/modul-studie/CapabilityStatement/metadata` â€” see [the rendered CapabilityStatement](CapabilityStatement-MII-CPS-Metadata-Studie.md).
+Canonical: `https://www.medizininformatik-initiative.de/fhir/modul-studie/CapabilityStatement/metadata`
 

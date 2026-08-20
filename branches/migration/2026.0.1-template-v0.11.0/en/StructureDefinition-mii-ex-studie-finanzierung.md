@@ -9,7 +9,7 @@
 | | |
 | :--- | :--- |
 | *Official URL*:https://www.medizininformatik-initiative.de/fhir/modul-studie/StructureDefinition/mii-ex-studie-finanzierung | *Version*:2026.0.1 |
-| Active as of 2026-08-19 | *Computable Name*:MII_EX_Studie_Finanzierung |
+| Active as of 2026-08-20 | *Computable Name*:MII_EX_Studie_Finanzierung |
 
 **Context of Use**
 
@@ -43,7 +43,7 @@ Other representations of profile: [CSV](../StructureDefinition-mii-ex-studie-fin
   "name" : "MII_EX_Studie_Finanzierung",
   "title" : "MII EX Studie Finanzierung",
   "status" : "active",
-  "date" : "2026-08-19T21:26:17+00:00",
+  "date" : "2026-08-20T09:40:04+00:00",
   "publisher" : "NUM-DIZ",
   "_publisher" : {
     "extension" : [{
