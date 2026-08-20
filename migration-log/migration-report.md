@@ -37,7 +37,7 @@ green (SUSHI 0 errors; the 17 remaining QA errors exist in the source's own cont
 
 ## ② Review queue (Gates B/C — someone must check)
 
-1. **All English pages are machine translations** of the German source, each marked
+1. **All English pages are machine translations** of the source narrative (de), each marked
    `TODO:REVIEW`; recurring boilerplate is fully translated, a few long German passages remain
    verbatim inside EN pages (marked). (Gate C)
 2. **Terminologie discrepancy:** the source's Terminologie page claims "no own CodeSystems and
