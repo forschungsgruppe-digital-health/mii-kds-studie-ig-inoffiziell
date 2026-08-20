@@ -43,7 +43,7 @@ Other representations of profile: [CSV](../StructureDefinition-mii-ex-studie-rek
   "name" : "MII_EX_Studie_Rekrutierung",
   "title" : "MII EX Studie Rekrutierung",
   "status" : "active",
-  "date" : "2026-08-20T09:40:04+00:00",
+  "date" : "2026-08-20T09:46:33+00:00",
   "publisher" : "NUM-DIZ",
   "_publisher" : {
     "extension" : [{

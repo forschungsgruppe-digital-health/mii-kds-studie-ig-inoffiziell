@@ -1,4 +1,4 @@
-<!-- TODO:REVIEW machine translation of the German source page DocumentReference.page.md @1394b43; untranslated runs remain German (Gate C). -->
+<!-- TODO:REVIEW machine translation of source page DocumentReference.page.md (de) @1394b43; untranslated runs remain in the original language (Gate C). -->
 
 ---
 

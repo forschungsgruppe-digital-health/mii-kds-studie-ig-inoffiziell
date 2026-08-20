@@ -47,7 +47,7 @@ Other representations of profile: [CSV](../StructureDefinition-mii-ex-studie-bac
   "name" : "MII_EX_Studie_Backport_definitionReference",
   "title" : "MII EX Studie Backport definitionReference",
   "status" : "active",
-  "date" : "2026-08-20T09:40:04+00:00",
+  "date" : "2026-08-20T09:46:33+00:00",
   "publisher" : "NUM-DIZ",
   "_publisher" : {
     "extension" : [{
