@@ -1,6 +1,3 @@
 <!-- markdownlint-disable MD041 -->
-
-UML-Übersichten der Datenmodelle des Moduls **{{MODULE_TITLE}}** und ihrer Beziehungen. Editierbare Quellen (z. B. PlantUML) gehören nach `input/images-source/`, die gerenderten Bilder nach `input/images/`.
-
-> [TODO: Fügen Sie die UML-Diagramme Ihres Moduls ein, oder entfernen Sie diese Seite, wenn keine vorhanden sind.]
-{: .ig-highlight .ig-highlight-grey}
+<!-- Quelle: MIIIGModulStudie @1394b43 (kerndatensatzmodul-studie v2026.0.1) -->
+![UML-Klassendiagramm des Moduls Medizinisches Forschungsvorhaben](UML_Forschungsvorhaben_2026.png)

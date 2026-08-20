@@ -1,0 +1,7 @@
+{
+  "id" : "ResearchSubject-mii-exa-studie-proband",
+  "baseLang" : "en",
+  "languages" : [{
+    "targetLang" : "de"
+  }]
+}

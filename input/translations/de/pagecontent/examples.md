@@ -1,11 +1,7 @@
 <!-- markdownlint-disable MD041 -->
-Diese Seite führt die Beispielinstanzen des Moduls **{{MODULE_TITLE}}** auf. Die
-Vorlage enthält das synthetische Beispiel
-[Max Mustermann-Testpatient](Patient-ExamplePatientInstance.html).
-
-{:.bg-warning}
-**Nur synthetische Daten** — niemals echte oder realistisch wirkende
-Patientendaten in Beispielen verwenden.
-
-> [TODO: Ergänzen Sie aussagekräftige Beispielinstanzen zu Ihren Profilen.]
-{: .ig-highlight .ig-highlight-grey}
+<!-- Quelle: MIIIGModulStudie @1394b43 (kerndatensatzmodul-studie v2026.0.1) -->
+Das Modul liefert Beispielinstanzen für jedes Profil, unterstützende
+Referenzressourcen (Patient, Practitioner, Organization, Consent) sowie ein
+umfassendes Beispiel-**Bundle** für Tests mit. Alle Beispiele verwenden
+synthetische Daten. Die vollständige Liste mit gerenderten Instanzen zeigt die
+[Artefaktübersicht](artifacts.html) unter *Example instances*.

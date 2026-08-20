@@ -1,13 +1,7 @@
 <!-- markdownlint-disable MD041 -->
-<!-- Source: kerndatensatz-basis input/pagecontent/examples.md.
-     German mirror: input/translations/de/pagecontent/examples.md. -->
-This page lists the example instances of the **{{MODULE_TITLE}}** module. The
-template ships the synthetic example
-[Max Mustermann-Testpatient](Patient-ExamplePatientInstance.html).
-
-{:.bg-warning}
-**Synthetic data only** — never use real or realistic-looking patient data in
-examples.
-
-> [TODO: Add meaningful example instances for your profiles.]
-{: .ig-highlight .ig-highlight-grey}
+<!-- TODO:REVIEW machine translation of the source narrative (de); review at Gate C -->
+The module ships example instances for every profile, supporting reference
+resources (Patient, Practitioner, Organization, Consent), and a comprehensive
+example **Bundle** for testing. All examples use synthetic data. The complete
+list with rendered instances is in the [artifacts summary](artifacts.html)
+under *Example instances*.
