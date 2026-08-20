@@ -27,7 +27,7 @@ Suchparameter für ResearchStudy.extension:Rekrutierung.extension:rekrutierungss
   "name" : "SP_MII_Studie_Rekrutierungsstand",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-08-20T09:52:29+00:00",
+  "date" : "2026-08-20T10:04:57+00:00",
   "publisher" : "NUM-DIZ",
   "_publisher" : {
     "extension" : [{

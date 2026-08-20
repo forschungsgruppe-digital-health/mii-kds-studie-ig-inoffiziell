@@ -42,7 +42,7 @@ Other representations of profile: [CSV](../StructureDefinition-mii-ex-studie-que
   "name" : "MII_EX_Studie_Quell_Register",
   "title" : "MII EX Studie Quell Register",
   "status" : "active",
-  "date" : "2026-08-20T09:52:29+00:00",
+  "date" : "2026-08-20T10:04:57+00:00",
   "publisher" : "NUM-DIZ",
   "_publisher" : {
     "extension" : [{
