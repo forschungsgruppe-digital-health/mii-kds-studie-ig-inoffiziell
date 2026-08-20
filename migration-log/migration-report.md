@@ -64,6 +64,19 @@ A source-baseline build (unmigrated) could not be fetched (source publishes no `
 stable URL — `gh-pages/qa.txt` 404, 2026-08-19); the source-inherence claims above rest on direct
 file:line inspection instead.
 
+## Applied polish fixes (revertible — a human confirms or reverts)
+
+Review-round adaptations, applied as **one commit `f166d7c`** — revert with
+`git revert f166d7c` if a reviewer disagrees. Each is a presentation decision,
+never content or identity:
+
+| Fix | Was | Now | Revert effect |
+|---|---|---|---|
+| CapabilityStatement page | link to the artifact page (extra click) | rendered INLINE via `lang-fragment` | back to link-only |
+| Index: authors | separator-joined run-in line | simple list (template index style) | back to run-in line |
+| Index: disclaimer | bullet list (carried from source) | prose sentences (template index style) | back to bullets |
+| Logical-models page | inline LM tree include rendering only an ERROR | source-defect note + artifact-page link (root cause: `LogicalModel.fsh:100` bare-name `contentReference Studienarm` — **upstream fix needed**, one line: use the full path) | back to the broken include (self-heals once upstream fixes the reference) |
+
 ## Content map
 
 `migration-log/page-map.tsv` — 22 source pages → 14 targets, 3 RETIRED with reason (2 deliberately
