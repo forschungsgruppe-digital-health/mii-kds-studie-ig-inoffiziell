@@ -3,7 +3,15 @@
 Das Informationsmodell für das Modul Medizinisches Forschungsvorhaben wurde als
 FHIR Logical Model abgebildet:
 
-{% lang-fragment StructureDefinition-mii-lm-studie-logicalmodel-snapshot.xhtml %}
+> **Bekannter Quell-Defekt (Korrektur upstream erforderlich):** Das Element
+> `Studiendesign.Studienarm.Studienarm` des Logical Models deklariert eine
+> `contentReference` mit dem bloßen Namen `Studienarm` (Quelle
+> `input/fsh/LogicalModel.fsh`, Zeile 100); der Tabellengenerator des IG
+> Publishers kann sie nicht auflösen, die Baumansicht rendert daher derzeit
+> einen Fehler statt einer Tabelle. Bis zur Korrektur (voller Pfad) siehe die
+> [Artefaktseite des Logical Models](StructureDefinition-mii-lm-studie-logicalmodel.html)
+> (Tab „Definitions") für die Elementliste.
+{: .ig-highlight .ig-highlight-orange}
 
 Es ist zu beachten, dass das Logical Model rein auf die Abbildung der
 Datenelemente und deren Beschreibung abzielt. Verwendete Datentypen und

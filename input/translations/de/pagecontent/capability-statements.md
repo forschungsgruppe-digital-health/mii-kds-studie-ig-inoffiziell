@@ -16,4 +16,5 @@ angegeben werden.
 
 Canonical:
 `https://www.medizininformatik-initiative.de/fhir/modul-studie/CapabilityStatement/metadata`
-— siehe [das gerenderte CapabilityStatement](CapabilityStatement-MII-CPS-Metadata-Studie.html).
+
+{% lang-fragment CapabilityStatement-MII-CPS-Metadata-Studie.xhtml %}

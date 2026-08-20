@@ -13,4 +13,5 @@ in the respective CapabilityStatement instance via
 
 Canonical:
 `https://www.medizininformatik-initiative.de/fhir/modul-studie/CapabilityStatement/metadata`
-— see [the rendered CapabilityStatement](CapabilityStatement-MII-CPS-Metadata-Studie.html).
+
+{% lang-fragment CapabilityStatement-MII-CPS-Metadata-Studie.xhtml %}
