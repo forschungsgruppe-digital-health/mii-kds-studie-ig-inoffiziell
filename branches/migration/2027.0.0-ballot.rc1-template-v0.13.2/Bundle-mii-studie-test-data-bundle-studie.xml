@@ -485,7 +485,7 @@
           <profile value="https://www.medizininformatik-initiative.de/fhir/modul-studie/StructureDefinition/mii-pr-studie-register"/>
         </meta>
         <text>
-          <status value="extensions"/><div xmlns="http://www.w3.org/1999/xhtml"><div xml:lang="de" lang="de"><hr/><p><b>German</b></p><hr/><a name="Library_mii-exa-studie-register"> </a><p><b style="color: maroon">Exception parsing generated Narrative (see /tmp/liquid-14ab0df6-9698-4e1e-b86d-10d5f2918a10.html): unexpected non-end of element null::a  at line 105 column 50</b></p></div></div>
+          <status value="extensions"/><div xmlns="http://www.w3.org/1999/xhtml"><div xml:lang="de" lang="de"><hr/><p><b>German</b></p><hr/><a name="Library_mii-exa-studie-register"> </a><p><b style="color: maroon">Exception parsing generated Narrative (see /tmp/liquid-e5f7d806-ac0a-423f-9c40-4bc1ee1d1ae6.html): unexpected non-end of element null::a  at line 105 column 50</b></p></div></div>
         </text>
         <identifier>
           <system value="https://example.com/fhir/sid/drks"/>
