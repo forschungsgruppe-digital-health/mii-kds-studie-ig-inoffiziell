@@ -72,7 +72,7 @@ Weitere Repräsentationen des Profils: [CSV](../StructureDefinition-mii-ex-studi
   "name" : "MII_EX_Studie_Studienregister",
   "title" : "MII EX Studie Studienregister",
   "status" : "active",
-  "date" : "2026-08-31T20:08:28+00:00",
+  "date" : "2026-08-31T20:26:54+00:00",
   "publisher" : "NUM-DIZ",
   "contact" : [{
     "name" : "NUM-DIZ",
