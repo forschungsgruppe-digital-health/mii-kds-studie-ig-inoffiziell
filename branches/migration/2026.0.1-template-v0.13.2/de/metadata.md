@@ -37,7 +37,7 @@ Dieser Leitfaden definiert keine `CRMIManifestLibrary`, keine CRMI-Repository-Op
 
 #### Von diesem Leitfaden deklarierte CRMI-Metadaten
 
-Die folgenden CRMI-Metadaten werden in [`sushi-config.yaml`](https://github.com/forschungsgruppe-digital-health/mii-kds-studie-ig-inoffiziell/blob/main/sushi-config.yaml) gesetzt und landen in der erzeugten `ImplementationGuide`-Ressource.
+Die folgenden CRMI-Metadaten werden in [`sushi-config.yaml`](https://github.com/medizininformatik-initiative/kerndatensatzmodul-studie/blob/main/sushi-config.yaml) gesetzt und landen in der erzeugten `ImplementationGuide`-Ressource.
 
 | | | | |
 | :--- | :--- | :--- | :--- |

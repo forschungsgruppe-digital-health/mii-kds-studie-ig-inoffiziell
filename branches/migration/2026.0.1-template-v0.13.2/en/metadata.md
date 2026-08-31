@@ -39,7 +39,7 @@ This guide defines no `CRMIManifestLibrary`, no CRMI artifact-repository operati
 
 #### CRMI metadata declared by this guide
 
-The following CRMI-related metadata is set in [`sushi-config.yaml`](https://github.com/forschungsgruppe-digital-health/mii-kds-studie-ig-inoffiziell/blob/main/sushi-config.yaml) and ends up in the generated `ImplementationGuide` resource.
+The following CRMI-related metadata is set in [`sushi-config.yaml`](https://github.com/medizininformatik-initiative/kerndatensatzmodul-studie/blob/main/sushi-config.yaml) and ends up in the generated `ImplementationGuide` resource.
 
 | | | | |
 | :--- | :--- | :--- | :--- |
